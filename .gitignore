@@ -1,0 +1,63 @@
+**/.DS_Store
+launch.json
+**/.env
+
+# Spring Boot specific
+**/mvnw
+**/mvnw.cmd
+
+# Logs
+**/*.log
+
+# Miscellaneous
+.project
+.classpath
+.settings/
+tmp/
+temp/
+/storage/
+!*/storage/
+
+# Maven
+**/target/
+*.jar
+*.war
+*.ear
+*.releaseBackup
+*.sync
+*.log
+logs/
+rebel.xml
+
+# IDE and editor files
+**/.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+.npmrc
+
+# frontend dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+frontend/dist
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+node_modules
